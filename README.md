@@ -18,7 +18,7 @@ EORSSD download https://github.com/rmcong/EORSSD-dataset
 
 
 # testing
-1. Download the pre-trained models (MyNet_EORSSD.pth and MyNet_ORSSD.pth) on [GSAMet_Pretrain](https://pan.baidu.com/s/1Xp8TSt1UBiaKwQrGjgJtDg?pwd=o4dz) (code:o4dz) .
+1. Download the pre-trained models (MyNet_EORSSD.pth and MyNet_ORSSD.pth) on [GSAMet_Pretrain](https://pan.baidu.com/s/1Xp8TSt1UBiaKwQrGjgJtDg?pwd=o4dz) (code:o4dz)
 2. Modify paths of pre-trained models  and datasets (EORSSD and ORSSD).
 3. Run test_MyNet.py.
 
