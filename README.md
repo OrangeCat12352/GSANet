@@ -1,9 +1,10 @@
 # GSANet
 This project provides the code and results for 'Global Semantic-Sense Aggregation Network for Salient Object Detection in Remote Sensing Images'
-<p align="center"> <img src="Images/Network.png" width=90%"></p>
+<p align="center"> <img src="Images/Network.png" width=80%"></p>
+
 # Saliency maps
    We provide saliency maps of our GSANet and all compared methods at [GSANet_SalMap and ComparisonMethods](https://pan.baidu.com/s/1Xp8TSt1UBiaKwQrGjgJtDg?pwd=o4dz) (code:o4dz) on two datasets (ORSSD and EORSSD).
-      
+    
 # DateSets
 ORSSD download  https://github.com/rmcong/ORSSD-dataset
 
