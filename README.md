@@ -8,7 +8,29 @@ This project provides the code and results for 'Global Semantic-Sense Aggregatio
 ORSSD download  https://github.com/rmcong/ORSSD-dataset
 
 EORSSD download https://github.com/rmcong/EORSSD-dataset
-
+```python
+GSANet
+├── EORSSD
+│   ├── train
+│   │   ├── images
+│   │   │   ├── 0001.jpg
+│   │   │   ├── 0002.jpg
+│   │   │   ├── .....
+│   │   ├── lables
+│   │   │   ├── 0001.png
+│   │   │   ├── 0002.png
+│   │   │   ├── .....
+│   │   
+│   ├── test
+│   │   ├── images
+│   │   │   ├── 0004.jpg
+│   │   │   ├── 0005.jpg
+│   │   │   ├── .....
+│   │   ├── lables
+│   │   │   ├── 0004.png
+│   │   │   ├── 0005.png
+│   │   │   ├── .....
+```
 # Training
    We use data_aug.m for data augmentation.
 
@@ -22,15 +44,23 @@ EORSSD download https://github.com/rmcong/EORSSD-dataset
 2. Modify paths of pre-trained models  and datasets (EORSSD and ORSSD).
 3. Run test_MyNet.py.
 
+# Results
+ORSSD Dataset Result
+<p align="center"> <img src="Images/Table_ORSSD.png" width=100%"></p>
+EORSSD Dataset Result
+<p align="center"> <img src="Images/Table_EORSSD.png" width=100%"></p>
 
-   
+# Visualization of results
+<p align="center"> <img src="Images/Result1.png" width=90%"></p>
+
 # Evaluation Tool
    You can use the [evaluation tool (MATLAB version)](https://github.com/MathLee/MatlabEvaluationTools) to evaluate the above saliency maps.
 
 
 # [ORSI-SOD_Summary](https://github.com/MathLee/ORSI-SOD_Summary)
    
-# Citation
+# ## Contact
+If you have any questions, please submit an issue on GitHub or contact me by email (cxh1638843923@gmail.com).
        
                 
                 
