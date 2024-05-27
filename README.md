@@ -24,7 +24,19 @@ and 89.37% Fβ on the EORSSD dataset.</span>
 If our code is helpful to you, please cite:
 
 ```
-
+@Article{e26060445,
+AUTHOR = {Li, Hongli and Chen, Xuhui and Yang, Wei and Huang, Jian and Sun, Kaimin and Wang, Ying and Huang, Andong and Mei, Liye},
+TITLE = {Global Semantic-Sense Aggregation Network for Salient Object Detection in Remote Sensing Images},
+JOURNAL = {Entropy},
+VOLUME = {26},
+YEAR = {2024},
+NUMBER = {6},
+ARTICLE-NUMBER = {445},
+URL = {https://www.mdpi.com/1099-4300/26/6/445},
+ISSN = {1099-4300},
+ABSTRACT = {Salient object detection (SOD) aims to accurately identify significant geographical objects in remote sensing images (RSI), providing reliable support and guidance for extensive geographical information analyses and decisions. However, SOD in RSI faces numerous challenges, including shadow interference, inter-class feature confusion, as well as unclear target edge contours. Therefore, we designed an effective Global Semantic-aware Aggregation Network (GSANet) to aggregate salient information in RSI. GSANet computes the information entropy of different regions, prioritizing areas with high information entropy as potential target regions, thereby achieving precise localization and semantic understanding of salient objects in remote sensing imagery. Specifically, we proposed a Semantic Detail Embedding Module (SDEM), which explores the potential connections among multi-level features, adaptively fusing shallow texture details with deep semantic features, efficiently aggregating the information entropy of salient regions, enhancing information content of salient targets. Additionally, we proposed a Semantic Perception Fusion Module (SPFM) to analyze map relationships between contextual information and local details, enhancing the perceptual capability for salient objects while suppressing irrelevant information entropy, thereby addressing the semantic dilution issue of salient objects during the up-sampling process. The experimental results on two publicly available datasets, ORSSD and EORSSD, demonstrated the outstanding performance of our method. The method achieved 93.91% Sα, 98.36% Eξ, and 89.37% Fβ on the EORSSD dataset.},
+DOI = {10.3390/e26060445}
+}
 ```
 # Saliency maps
    We provide saliency maps of our and compared methods at [here](https://pan.baidu.com/s/1Xp8TSt1UBiaKwQrGjgJtDg?pwd=o4dz) (code:o4dz) on two datasets (ORSSD and EORSSD).
