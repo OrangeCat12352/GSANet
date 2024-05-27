@@ -42,7 +42,7 @@ DOI = {10.3390/e26060445}
    We provide saliency maps of our and compared methods at [here](https://pan.baidu.com/s/1Xp8TSt1UBiaKwQrGjgJtDg?pwd=o4dz) (code:o4dz) on two datasets (ORSSD and EORSSD).
       
 # DateSets
-ORSSD download  at [here](ttps://github.com/rmcong/ORSSD-dataset)
+ORSSD download  at [here](https://github.com/rmcong/ORSSD-dataset)
 
 EORSSD download at [here](https://github.com/rmcong/EORSSD-dataset)
 
